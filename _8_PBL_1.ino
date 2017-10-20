@@ -40,7 +40,7 @@ void setup() {
 }
 
 void loop() {
-  int button = digitalRead(2);    // 버튼 핀번호(2) 정의 
+  int button = digitalRead(2);    // 버튼 상태 저장(LOW = 0, HIGH = 1)
   
   UD_GreOn();                     // 위쪽, 아래쪽 신호 변경
   
